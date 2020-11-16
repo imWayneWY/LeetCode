@@ -26,3 +26,8 @@ public class Solution {
 }
 // @lc code=end
 
+/*
+    建立一个字典，存储的key为相加和为target的值，value是这个数值的下标
+    遍历数组，如果当前值不存在当前字典中，计算target-num[i]作为key，下标作为value存入字典。
+    如果存在在字典中就直接拿当前的和字典中的下标返回。
+*/
