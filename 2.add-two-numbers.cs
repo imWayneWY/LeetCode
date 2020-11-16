@@ -51,3 +51,8 @@ public class Solution {
 }
 // @lc code=end
 
+/*
+    设置carry储存进位
+    s为当前位相加
+    遍历链表，把进位，当前位的值相加
+*/
